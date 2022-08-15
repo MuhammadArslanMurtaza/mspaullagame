@@ -1,0 +1,511 @@
+.alph_qs {
+     color: #FFEB3B;
+     font-size: 50px !important;
+}
+    .fruit_tag {
+         position: absolute;
+         top: 3%;
+         left: 34%;
+    }
+
+    .eyeimage {
+         width: 10%;
+         position: absolute;
+         top: 3vw;
+         left: 45vw;
+         cursor: pointer;
+    }
+
+    .ansdiv {
+         background-color: #000;
+         padding: 10px;
+         color: #fff;
+    }
+
+    .alphgrid-container {
+         display: grid;
+         grid-gap: 5px;
+         position: absolute;
+         top: 35%;
+         left: 26%;
+         width: 50%;
+    }
+
+    .alphgrid-item {
+         text-align: center;
+         padding: 40px;
+         font-size: 38px;
+         border-radius: 10px;
+    }
+
+    .alphitem2 {
+         grid-column: 1 / span 3;
+         grid-row: 1;
+         padding: 0;
+    }
+
+    .alphitem2 {
+         grid-column: 4;
+         grid-row: 1;
+    }
+
+    .ans_div {
+         display: flex;
+         justify-content: center;
+    }
+
+    .ans_alph {
+         font-family: 'DK Jambo';
+         background-color: #FFEB3B;
+         color: red;
+         border: none;
+         margin: auto 5px;
+         margin-bottom: 50px;
+         border-radius: 5px;
+         width: 70px;
+    }
+
+    .ans_divopt {
+         display: flex;
+         justify-content: center;
+    }
+
+    .ans_alphopt {
+         font-family: 'DK Jambo';
+         background-color: #fff;
+         color: #000000;
+         border: none;
+         margin: 5px 3px;
+         border-radius: 5px;
+         width: 70px;
+    }
+
+    .harbsbg {
+         width: 40%;
+         position: absolute;
+         top: 50px;
+         left: 70px;
+    }
+
+    .harbsans {
+         width: 25%;
+         position: absolute;
+         top: 45px;
+         left: 115px;
+    }
+    .anscht{
+         margin-top: 100px;
+    }
+    @media (max-width: 1680px) {
+.eyeimage {
+     top: 4vw;
+}
+    }
+@media (max-width: 1366px) {
+     .fruit_tag {
+     top: 3%;
+     left: 34%;
+}
+.anscht {
+     margin-top: 50px;
+}
+.eyeimage {
+     width: 10%;
+     top: 1vw;
+     left: 48vw;
+     cursor: pointer;
+}
+
+.ansdiv {
+     background-color: #000;
+     padding: 10px;
+     color: #fff;
+}
+
+.alphgrid-container {
+     display: grid;
+     grid-gap: 5px;
+     top: 35%;
+     left: 26%;
+     width: 50%;
+}
+
+.alphgrid-item {
+     text-align: center;
+     padding: 1px;
+     font-size: 30px;
+     border-radius: 10px;
+}
+
+.alphitem2 {
+     grid-column: 1 / span 3;
+     grid-row: 1;
+     padding: 0;
+}
+
+.alphitem2 {
+     grid-column: 4;
+     grid-row: 1;
+}
+.ans_div {
+     display: inline-flex;
+     justify-content: center;
+}
+
+.ans_alph {
+     font-family: 'DK Jambo';
+     background-color: #FFEB3B;
+     color: red;
+     border: none;
+     margin: auto 5px;
+     margin-bottom: 50px;
+     border-radius: 5px;
+     width: 45px;
+}
+
+.ans_divopt {
+     display: inline-flex;
+}
+
+.ans_alphopt {
+     font-family: 'DK Jambo';
+     background-color: #fff;
+     color: #000000;
+     border: none;
+     margin: 5px 3px;
+     border-radius: 5px;
+     width: 45px;
+}
+.harbsbg{
+     width: 40%;
+     position: absolute;
+     top: 50px;
+     left: 70px;
+}
+.harbsans{
+     width: 25%;
+     position: absolute;
+     top: 45px;
+     left: 115px;
+}
+}
+@media screen and (max-height: 700px) {
+     .woodimg {
+          width: 70%;
+          height: 70vh;
+     }
+
+     .fruit_tag {
+          top: 3%;
+          left: 36%;
+          width: 330px;
+     }
+
+     .navbar-expand {
+          padding: inherit !important;
+     }
+
+     .alph_qs {
+          top: 43%;
+     }
+
+     .navbar-expand {
+          padding: inherit !important;
+     }
+
+     .alphgrid-container {
+          top: 35% !important;
+          left: 29% !important;
+          width: 45% !important;
+     }
+
+     .alphgrid-item {
+          font-size: 20px !important;
+     }
+     .eyeimage {
+          left: 43vw;
+     }
+
+}
+@media (max-width: 600px) {
+     .fruit_tag {
+          left: 30%;
+          width: 120px;
+     }
+
+     .navbar-expand {
+          padding: 0rem 1rem !important;
+     }
+
+     .barndimg,
+     .setimg {
+          width: 40% !important;
+     }
+
+     .nav_f {
+          text-align: end;
+     }
+
+     .nav_f a {
+          padding-right: inherit !important;
+     }
+
+     .woodimg {
+          width: 90% !important;
+          display: none;
+     }
+
+     .woodimgmb {
+          display: inline-block !important;
+          width: 85%;
+          height: 75vh;
+     }
+
+     .alphcorrectans {
+          display: inline-block !important;
+          width: 100%;
+     }
+
+     .alph_qs {
+          top: 25%;
+          font-size: 30px !important;
+     }
+
+     .ans_alph {
+          margin-top: auto !important;
+          margin-bottom: 30px !important;
+          width: 35px !important;
+     }
+
+     .alphitem2 {
+          display: none !important;
+     }
+
+     .ans_alphopt {
+          width: 35px !important;
+     }
+
+     .alphgrid-container {
+          width: 54% !important;
+          top: 16% !important;
+          left: 20% !important;
+     }
+
+     .alphgrid-item {
+          margin-top: 20px;
+          padding: 42px 8px !important;
+     }
+
+     .alphitem2 {
+          grid-column: 1 / span 3 !important;
+          grid-row: 1 !important;
+          padding: 0 !important;
+     }
+
+     .alphitem2 {
+          grid-column: 1 !important;
+          grid-row: 2 !important;
+          margin: 15vh auto auto !important;
+     }
+
+     .eyeimage {
+          width: 24%;
+          top: 0vw;
+          left: 44vw;
+     }
+}
+@media (max-width: 480px) {
+     .harbsbg {
+          width: 100%;
+          top: 150px;
+          left: 20px;
+     }
+
+     .harbsans {
+          width: 50%;
+          top: 155px;
+          left: 60px;
+     }
+     .fruit_tag {
+          left: 30%;
+          width: 120px;
+     }
+
+     .navbar-expand {
+          padding: 0rem 1rem !important;
+     }
+
+     .barndimg,
+     .setimg {
+          width: 40% !important;
+     }
+
+     .nav_f {
+          text-align: end;
+     }
+
+     .nav_f a {
+          padding-right: inherit !important;
+     }
+
+     .woodimg {
+          width: 90% !important;
+          display: none;
+     }
+
+     .woodimgmb {
+          display: inline-block !important;
+          width: 85%;
+          height: 75vh;
+     }
+
+     .alphcorrectans {
+          display: inline-block !important;
+          width: 100%;
+     }
+
+     .alph_qs {
+          top: 25%;
+          font-size: 30px !important;
+     }
+
+     .ans_alph {
+          margin-top: 60px !important;
+          margin-bottom: 30px !important;
+          width: 35px !important;
+     }
+
+     .alphitem2 {
+          display: none !important;
+     }
+
+     .ans_alphopt {
+          width: 35px !important;
+     }
+
+     .alphgrid-container {
+          width: 38% !important;
+          top: 16% !important;
+          left: 25% !important;
+     }
+
+     .alphgrid-item {
+          margin-top: 22px;
+          padding: 42px 0px !important;
+     }
+
+     .alphitem2 {
+          grid-column: 1 / span 3 !important;
+          grid-row: 1 !important;
+          padding: 0 !important;
+     }
+
+     .alphitem2 {
+          grid-column: 1 !important;
+          grid-row: 2 !important;
+          margin: 15vh auto auto !important;
+     }
+     .eyeimage {
+          width: 25%;
+          top: 2vw;
+     }
+
+}
+@media (max-width: 360px) {
+     .fruit_tag {
+          left: 30%;
+          width: 120px;
+     }
+
+     .navbar-expand {
+          padding: 0rem 1rem !important;
+     }
+
+     .barndimg,
+     .setimg {
+          width: 40% !important;
+     }
+
+     .nav_f {
+          text-align: end;
+     }
+
+     .nav_f a {
+          padding-right: inherit !important;
+     }
+
+     .woodimg {
+          width: 90% !important;
+          display: none;
+     }
+
+     .woodimgmb {
+          display: inline-block !important;
+          width: 85%;
+          height: 75vh;
+     }
+
+     .alphcorrectans {
+          display: inline-block !important;
+          width: 100%;
+     }
+
+     .alph_qs {
+          top: 25%;
+          font-size: 30px !important;
+     }
+
+     .ans_alph {
+          margin-top: auto !important;
+          margin-bottom: 30px !important;
+          width: 35px !important;
+     }
+
+     .alphitem2 {
+          display: none !important;
+     }
+
+     .ans_alphopt {
+          width: 35px !important;
+     }
+
+     .alphgrid-container {
+          width: 38% !important;
+          top: 16% !important;
+          left: 15% !important;
+     }
+
+     .alphgrid-item {
+          margin-top: 20px;
+          padding: 42px 8px !important;
+     }
+
+     .alphitem2 {
+          grid-column: 1 / span 3 !important;
+          grid-row: 1 !important;
+          padding: 0 !important;
+     }
+
+     .alphitem2 {
+          grid-column: 1 !important;
+          grid-row: 2 !important;
+          margin: 15vh auto auto !important;
+     }
+
+     .eyeimage {
+          width: 28%;
+          top: 9vw;
+          left: 55vw;
+     }
+     .harbsbg {
+          width: 100%;
+          top: 150px;
+          left: 50px;
+     }
+
+     .harbsans {
+          width: 50%;
+          top: 155px;
+          left: 80px;
+     }
+}

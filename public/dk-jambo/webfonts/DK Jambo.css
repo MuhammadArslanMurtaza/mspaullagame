@@ -1,0 +1,8 @@
+@font-face
+{
+    font-family: 'DK Jambo';
+  src: url('DK Jambo.eot');
+      url('DK Jambo.eot?#') format('embedded-opentype'),
+      url('DK Jambo.woff') format('woff'),
+      url('DK Jambo.ttf') format('truetype');
+}

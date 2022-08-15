@@ -1,0 +1,295 @@
+#root {
+     /* The image used */
+     /* background-image: url("img/bg1.jpg"); */
+
+     /* Full height */
+     height: 100%;
+     /* Center and scale the image nicely */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.select_itembtn {
+     position: absolute;
+     width: 22rem;
+     top: 22%;
+     left: 21%;
+}
+
+.rightwrongbtn {
+     position: absolute;
+     width: 21rem;
+     top: 42%;
+     left: 22%;
+}
+
+.quizbtn {
+     position: absolute;
+     width: 20rem;
+     top: 60%;
+     left: 22%;
+}
+
+.select_itembtn:active,
+.rightwrongbtn:active,
+.quizbtn:active {
+     transform: skewX(10deg);
+}
+@media screen and (min-width: 1920px) {
+     .colbackss {
+          text-align: center;
+     }
+     .btn_bak {
+          width: 50rem !important;
+          height: 56rem;
+     }
+     .quizbtn {
+          width: 28rem;
+          left: 28% !important;
+     }
+
+     .rightwrongbtn {
+           width: 30rem;
+          left: 26% !important;
+     }
+
+     .select_itembtn {
+          width: 31rem;
+          left: 25% !important;
+     }
+}
+@media screen and (max-width: 1680px) {
+     .btn_bak {
+          width: 50rem;
+     }
+     .colbackss {
+          text-align: center;
+     }
+     .quizbtn {
+          width: 28rem;
+          left: 25% !important;
+     }
+
+     .rightwrongbtn {
+          width: 30rem;
+          left: 23% !important;
+     }
+
+     .select_itembtn {
+          width: 31rem;
+          left: 22% !important;
+     }
+}
+@media screen and (max-width: 1440px) {
+     .colbackss {
+          text-align: center;
+     }
+     .btn_bak {
+          width: 35rem;
+          height: auto;
+     }
+.quizbtn {
+     width: 20rem;
+     left: 28% !important;
+}
+.rightwrongbtn {
+     width: 21rem;
+     left: 27% !important;
+}
+.select_itembtn {
+     width: 22rem;
+     left: 27% !important;
+}
+}
+@media screen and (max-width: 1366px) {
+     .quizbtn {
+          left: 26% !important;
+     }
+
+     .rightwrongbtn {
+          left: 25% !important;
+     }
+
+     .select_itembtn {
+          left: 23% !important;
+     }
+}
+@media screen and (max-width: 768px) {
+     .col3 {
+          max-width: 8% !important;
+     }
+     .btn_back{
+          width: 36rem;
+          height: 103vw;
+     }
+     .select_itembtn {
+          left: 34%;
+     }
+     .rightwrongbtn {
+          left: 36%;
+     }
+     .quizbtn {
+          left: 39%;
+     }
+}
+@media screen and (max-height: 700px) {
+     .tophead {
+          height: 35px !important;
+     }
+     .rtwrbg{
+              height: 38rem;
+     }
+}
+@media screen and (max-width: 768px) {
+     .centered_t {
+          top: 28% !important;
+          width: 51% !important;
+     }
+
+     .centered_f {
+          top: 39% !important;
+          left: 48% !important;
+          width: 168px !important;
+     }
+
+     .centered_v {
+          top: 54% !important;
+          left: 48% !important;
+          width: 168px !important;
+     }
+
+     .centered_h {
+          top: 69% !important;
+          left: 50% !important;
+          width: 168px !important;
+     }
+
+     img.centered_h:active {
+          top: 65% !important;
+          left: 27% !important;
+     }
+
+     img.centered_v:active {
+          top: 50% !important;
+          left: 27% !important;
+     }
+
+     img.centered_f:active {
+          left: 28% !important;
+          top: 35% !important;
+     }
+}
+@media screen and (max-width: 480px) {
+     .btn_back {
+          width: 18rem !important;
+          height: 29rem !important;
+     }
+
+     .select_itembtn {
+          position: absolute;
+          width: 12rem;
+          top: 22%;
+          left: 21%;
+     }
+
+     .rightwrongbtn {
+          position: absolute;
+          width: 11rem;
+          top: 42%;
+          left: 22%;
+     }
+
+     .quizbtn {
+          position: absolute;
+          width: 170px;
+          top: 60%;
+          left: 24%;
+     }
+
+     .tophead {
+          height: 93px !important;
+     }
+}
+@media screen and (max-width: 415px) {
+     .btn_back {
+          width: 24rem !important;
+          height: 36rem !important;
+     }
+
+     .select_itembtn {
+          width: 15rem !important;
+          top: 22% !important;
+          left: 22% !important;
+     }
+
+     .rightwrongbtn {
+          width: 15rem !important;
+          top: 42% !important;
+          left: 22% !important;
+     }
+
+     .quizbtn {
+          width: 224px !important;
+          top: 60% !important;
+          left: 24% !important;
+     }
+}
+@media screen and (max-width: 375px) {
+     .btn_back {
+          width: 22rem !important;
+          height: 36rem !important;
+     }
+
+     .select_itembtn {
+          width: 14rem !important;
+     }
+
+     .rightwrongbtn {
+          width: 14rem !important;
+          left: 23% !important;
+     }
+
+     .quizbtn {
+          width: 210px !important;
+     }
+}
+@media screen and (max-width: 360px) {
+     .btn_back {
+          width: 21rem !important;
+     }
+
+     .select_itembtn {
+          width: 13rem !important;
+          left: 23% !important;
+     }
+
+     .rightwrongbtn {
+          width: 13rem !important;
+          left: 22% !important;
+     }
+
+     .quizbtn {
+          width: 201px !important;
+          left: 24% !important;
+     }
+}
+
+@media screen and (max-width: 320px) {
+     .btn_back {
+          width: 18rem !important;
+          height: 31rem !important;
+     }
+
+     .select_itembtn {
+          width: 11rem !important;
+     }
+
+     .rightwrongbtn {
+          width: 11rem !important;
+          left: 23% !important;
+     }
+
+     .quizbtn {
+          width: 168px !important;
+     }
+}

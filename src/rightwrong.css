@@ -1,0 +1,85 @@
+.f_btn:active,.v_btn:active,.herbs:active,.h_btn:active{
+     transform: translateX(20px);
+}
+.btn_backs {
+     position: absolute;
+}
+
+.f_btn {
+     width: 325px;
+     top: 23%;
+     left: 25%;
+}
+
+.v_btn {
+     width: 315px;
+     top: 42%;
+     left: 26%;
+}
+
+.h_btn {
+     width: 315px;
+     top: 60%;
+     left: 26%;
+}
+
+@media screen and (max-height: 700px) {
+     .navbar-expand {
+          padding: inherit !important;
+     }
+     .tophead {
+          height: 35px !important;
+     }
+
+     .woods_bck {
+          width: 80% !important;
+          height: 620px;
+     }
+
+     .f_btn {
+          width: 307px;
+          top: 23%;
+          left: 28%;
+     }
+
+     .v_btn {
+          width: 300px;
+          top: 42%;
+          left: 29%;
+     }
+
+     .h_btn {
+          width: 293px;
+          top: 60%;
+          left: 30%;
+     }
+}
+
+@media screen and (max-width: 480px) {
+     .miandiv {
+          padding: 0 !important;
+     }
+
+     .woods_bck {
+          width: 100% !important;
+          height: 491px;
+     }
+
+     .f_btn {
+          width: 190px;
+          top: 23%;
+          left: 21%;
+     }
+
+     .v_btn {
+          width: 190px;
+          top: 42%;
+          left: 21%;
+     }
+
+     .h_btn {
+          width: 186px;
+          top: 60%;
+          left: 22%;
+     }
+}
